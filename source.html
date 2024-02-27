@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image Links</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      h1 {
+        color: #333;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+      }
+      .grid-item img {
+        width: 100%;
+        height: auto;
+      }
+      .menu {
+        list-style-type: none;
+        padding: 0;
+      }
+      .menu-item {
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to Image Links</h1>
+
+    <h2>Home</h2>
+    <a href="https://en.wikipedia.org/wiki/Technology" target="_blank">
+      <img src="images/technology.jpg" alt="Technology" />
+    </a>
+
+    <h2>Gallery</h2>
+    <div class="grid">
+      <div class="grid-item">
+        <a
+          href="https://en.wikipedia.org/wiki/Nature_(journal)"
+          target="_blank"
+        >
+          <img src="images/nature.jpg" alt="Nature 1" />
+        </a>
+      </div>
+      <div class="grid-item">
+        <a
+          href="https://en.wikipedia.org/wiki/Nature_(journal)"
+          target="_blank"
+        >
+          <img src="images/hill.jpg" alt="Nature 2" />
+        </a>
+      </div>
+      <div class="grid-item">
+        <a
+          href="https://en.wikipedia.org/wiki/Nature_(journal)"
+          target="_blank"
+        >
+          <img src="images/lake.jpg" alt="Nature 3" />
+        </a>
+      </div>
+    </div>
+
+    <h2>Menu</h2>
+    <ul class="menu">
+      <li class="menu-item">
+        <a href="https://example.com/food1" target="_blank">
+          Food Item 1
+          <img src="food1.jpg" alt="Food 1" />
+        </a>
+      </li>
+      <li class="menu-item">
+        <a href="https://example.com/food2" target="_blank">
+          Food Item 2
+          <img src="food2.jpg" alt="Food 2" />
+        </a>
+      </li>
+      <li class="menu-item">
+        <a href="https://example.com/food3" target="_blank">
+          Food Item 3
+          <img src="food3.jpg" alt="Food 3" />
+        </a>
+      </li>
+    </ul>
+  </body>
+</html>
